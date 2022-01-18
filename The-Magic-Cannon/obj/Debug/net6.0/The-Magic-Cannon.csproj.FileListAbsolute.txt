@@ -1,0 +1,15 @@
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.csproj.AssemblyReference.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.AssemblyInfoInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.AssemblyInfo.cs
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\bin\Debug\net6.0\The-Magic-Cannon.exe
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\bin\Debug\net6.0\The-Magic-Cannon.deps.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\bin\Debug\net6.0\The-Magic-Cannon.runtimeconfig.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\bin\Debug\net6.0\The-Magic-Cannon.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\bin\Debug\net6.0\ref\The-Magic-Cannon.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\bin\Debug\net6.0\The-Magic-Cannon.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\ref\The-Magic-Cannon.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Magic-Cannon\obj\Debug\net6.0\The-Magic-Cannon.genruntimeconfig.cache
