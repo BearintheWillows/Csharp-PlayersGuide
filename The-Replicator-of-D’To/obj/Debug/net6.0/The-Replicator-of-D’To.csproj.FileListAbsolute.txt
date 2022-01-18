@@ -1,0 +1,15 @@
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\bin\Debug\net6.0\The-Replicator-of-D’To.exe
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\bin\Debug\net6.0\The-Replicator-of-D’To.deps.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\bin\Debug\net6.0\The-Replicator-of-D’To.runtimeconfig.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\bin\Debug\net6.0\The-Replicator-of-D’To.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\bin\Debug\net6.0\ref\The-Replicator-of-D’To.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\bin\Debug\net6.0\The-Replicator-of-D’To.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.csproj.AssemblyReference.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.AssemblyInfoInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.AssemblyInfo.cs
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\ref\The-Replicator-of-D’To.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\The-Replicator-of-D’To\obj\Debug\net6.0\The-Replicator-of-D’To.genruntimeconfig.cache
