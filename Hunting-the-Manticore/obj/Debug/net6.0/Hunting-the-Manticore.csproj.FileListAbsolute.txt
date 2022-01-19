@@ -1,0 +1,15 @@
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.csproj.AssemblyReference.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.AssemblyInfoInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.AssemblyInfo.cs
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.exe
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.deps.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.runtimeconfig.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\bin\Debug\net6.0\ref\Hunting-the-Manticore.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\ref\Hunting-the-Manticore.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.genruntimeconfig.cache
