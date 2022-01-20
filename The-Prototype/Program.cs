@@ -1,13 +1,14 @@
-﻿string pilotInput;
-int pilotNumber;
-string hunterInput;
+﻿int pilotNumber;
 int hunterNumber;
 
 Console.WriteLine("User 1, enter a number between 0 and 100:");
 do
 {
-    pilotInput = Console.ReadLine();
-    pilotNumber = int.Parse(pilotInput);
+    //Requests number from user
+    //If condition met warning shown to user as outofbounds
+    //Else Success and Console clear
+
+    pilotNumber = int.Parse(Console.ReadLine());
     if (pilotNumber > 100 || pilotNumber < 0)
     {
       Console.WriteLine($"{pilotNumber} is too high/low. Try again");  
@@ -25,8 +26,10 @@ Console.WriteLine("Guess User 1s number:");
 
 do
 {
-    hunterInput = Console.ReadLine();
-    hunterNumber = int.Parse(hunterInput);
+    //Requests input form user and sets variable hunterNumber
+    hunterNumber = int.Parse(Console.ReadLine());
+
+    //Response in console based on condition
 
     if (hunterNumber > pilotNumber)
     {

@@ -4,9 +4,13 @@ int round = 1;
 int damage = 1;
 int shotRange;
 
+
 Console.WriteLine("Commander, set Manticore distance:");
 int cityDistance = int.Parse(Console.ReadLine());
 Console.Clear();
+
+/*Sets damage variable based on round number 
+  Then reduces manticore health accordingly.*/
 
 void MagicCannon (int roundNum) {
     if (shotRange == cityDistance)
@@ -35,6 +39,8 @@ void MagicCannon (int roundNum) {
     }
 }
 
+// Returns hit success response based on range variable set by user
+
 string CannonHitDetect (int range) {
     string response;
     shotRange = range; 
@@ -54,6 +60,8 @@ string CannonHitDetect (int range) {
     return response;
 }
 
+// Responds with winner when win condition met
+
 string loserDetect () {
     string response;
     if (cityHealth == 0)
@@ -67,6 +75,8 @@ string loserDetect () {
     return response;
 }
 
+
+// Core game loop. Loops untill cityhealth or manticore health are 0.
 do
 {
     //Setting game status per round
@@ -79,7 +89,7 @@ do
     Console.WriteLine(CannonHitDetect(int.Parse(Console.ReadLine())));
     Console.WriteLine("------------------------------------------------------");
     
-
+    
     MagicCannon(round);
     cityHealth--;
     Console.WriteLine("**********************************");
