@@ -1,0 +1,15 @@
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\bin\Debug\net6.0\Simulas-Soup.exe
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\bin\Debug\net6.0\Simulas-Soup.deps.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\bin\Debug\net6.0\Simulas-Soup.runtimeconfig.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\bin\Debug\net6.0\Simulas-Soup.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\bin\Debug\net6.0\ref\Simulas-Soup.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\bin\Debug\net6.0\Simulas-Soup.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.csproj.AssemblyReference.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.AssemblyInfoInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.AssemblyInfo.cs
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\ref\Simulas-Soup.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Simulas-Soup\obj\Debug\net6.0\Simulas-Soup.genruntimeconfig.cache
