@@ -1,72 +1,37 @@
 ﻿using Chest;
 
 State currentState = State.locked;
+int i = 1;
 
-string response = "";
-
-
-
-do {
-getResponse();
-
-if (currentState.ToString() == "locked" && response == "unlock")
+do
 {
-    Console.Write($"The chest is {currentState}. What do you want to do?");
-    SetState(currentState);
-    getResponse();
-}
-else if (currentState.ToString() == "unlocked" && response == "lock") 
-{
-    Console.Write($"The chest is {currentState}");
-    SetState(currentState);
-    getResponse();
-}
-else if (currentState.ToString() == "closed" && response == "open")
-{
-    Console.Write($"The chest is {currentState}. What do you want to do?");
-    SetState(currentState);
-    getResponse();
-} 
-else if (currentState.ToString() == "open" && response == "close")
-{
-    Console.Write($"The chest is {currentState}. What do you want to do?");
-    SetState(currentState);
-    getResponse();
-}
-else
-{
-    Console.WriteLine($@"Incorrect choice. The state is currently {currentState} Please choose from: 
-    -unlock, 
-    -lock,
-    -open,
-    -close,
-    ");
-}
-    
-} while (true);
+    Console.Write($"The chest is {currentState}. What do you want to do? ");
+    SetState(Console.ReadLine());
+} while (i == 1);
 
 
-State SetState (State currentState)
+void SetState (string response)
 {
-    switch (currentState)
+    switch (response)
     {
-        case State.locked:
-            currentState = State.unlocked;
+        case "unlock" when currentState == State.locked:
+            currentState = State.closed;
             break;
-        case State.unlocked:
+        case "lock" when currentState == State.closed:
+            currentState = State.locked;
+            break;
+        case "close" when currentState == State.open:
+            currentState = State.closed;
+            break;
+        case "open" when currentState == State.closed:
             currentState = State.open;
             break;
-        case State.open:
-            currentState = State.close;
-            break;
-        case State.close:
-            currentState = State.open;
+        default: 
+            Console.WriteLine(@"Available commands:
+            - unlock if locked
+            - lock if closed or unlocked
+            - open if closed
+            - close if open");
             break;
     }
-    return currentState;
-}
-
-void getResponse ()
-{
-    response = Console.ReadLine();
 }

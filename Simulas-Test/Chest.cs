@@ -5,5 +5,5 @@ public enum State
     locked,
     unlocked,
     open,
-    close
+    closed
 }
