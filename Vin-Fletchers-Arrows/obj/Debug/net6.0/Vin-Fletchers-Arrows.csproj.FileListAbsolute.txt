@@ -1,0 +1,15 @@
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.csproj.AssemblyReference.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.AssemblyInfoInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.AssemblyInfo.cs
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\bin\Debug\net6.0\Vin-Fletchers-Arrows.exe
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\bin\Debug\net6.0\Vin-Fletchers-Arrows.deps.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\bin\Debug\net6.0\Vin-Fletchers-Arrows.runtimeconfig.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\bin\Debug\net6.0\Vin-Fletchers-Arrows.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\bin\Debug\net6.0\ref\Vin-Fletchers-Arrows.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\bin\Debug\net6.0\Vin-Fletchers-Arrows.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\ref\Vin-Fletchers-Arrows.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Vin-Fletchers-Arrows\obj\Debug\net6.0\Vin-Fletchers-Arrows.genruntimeconfig.cache
