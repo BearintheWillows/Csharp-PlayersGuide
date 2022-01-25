@@ -1,0 +1,15 @@
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.csproj.AssemblyReference.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.AssemblyInfoInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.AssemblyInfo.cs
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\bin\Debug\net6.0\class.exe
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\bin\Debug\net6.0\class.deps.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\bin\Debug\net6.0\class.runtimeconfig.json
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\bin\Debug\net6.0\class.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\bin\Debug\net6.0\ref\class.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\bin\Debug\net6.0\class.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\ref\class.dll
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.pdb
+C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\class\obj\Debug\net6.0\class.genruntimeconfig.cache

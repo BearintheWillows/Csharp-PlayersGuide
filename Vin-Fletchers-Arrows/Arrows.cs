@@ -2,23 +2,23 @@ namespace Arrows;
 
 public class Arrows
 {
-    ArrowHead head;
-    int length;
-    Fletching fletching;
+    private ArrowHead _head;
+    private int _length;
+    private Fletching _fletching;
 
-    public Arrows(ArrowHead head,Fletching fletching,int length)
+    public Arrows(string head,string fletching,int length)
     {
-        this.head = head;
-        this.fletching = fletching;
-        this.length = length;
+        _head = (ArrowHead) Enum.Parse(typeof(ArrowHead), head, true);
+        _fletching = (Fletching) Enum.Parse(typeof(Fletching), fletching, true);
+        _length = length;
     }
 
 
     public void getCost()
     {
     
-    int headNum = (int) this.head;
-    int fletchNum = (int) this.fletching;
+    int headNum = (int) _head;
+    int fletchNum = (int) _fletching;
 
 
     
@@ -39,14 +39,14 @@ public class Arrows
                     _ => 0
                 };
             
-    decimal lengthCost = length * (decimal)0.05;
+    decimal lengthCost = _length * (decimal)0.05;
     
     decimal totalCost = headCost + fletchCost + lengthCost;
         
     Console.WriteLine($@"Your arrow is as follows:
-    {this.head} - {headCost} gold
-    {this.fletching} - {fletchCost} gold
-    {this.length} centimetres - {lengthCost} gold
+    {_head} - {headCost} gold
+    {_fletching} - {fletchCost} gold
+    {_length} centimetres - {lengthCost} gold
     Total cost per arrow: {totalCost} gold");
 
 }}

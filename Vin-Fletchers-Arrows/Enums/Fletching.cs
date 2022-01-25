@@ -2,7 +2,7 @@ namespace Arrows;
 
 public enum Fletching
 {
-    plastic,
+    plastic ,
     turkeyFeather,
     gooseFeather
 

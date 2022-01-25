@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "class"
+		},
+		{
+			"path": "Countdown"
+		},
+		{
+			"path": "Hunting-the-Manticore"
+		},
+		{
+			"path": "Simulas-Soup"
+		},
+		{
+			"path": "Simulas-Test"
+		},
+		{
+			"path": "The-Magic-Cannon"
+		},
+		{
+			"path": "The-Prototype"
+		},
+		{
+			"path": "The-Replicator-of-D’To"
+		},
+		{
+			"path": "Vin-Fletchers-Arrows"
+		}
+	],
+	"settings": {}
+}
