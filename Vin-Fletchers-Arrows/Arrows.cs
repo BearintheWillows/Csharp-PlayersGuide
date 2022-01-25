@@ -3,7 +3,7 @@ namespace Arrows;
 public class Arrows
 {
     private ArrowHead _head;
-    private int _length;
+    private double _length;
     private Fletching _fletching;
 
     public Arrows(string head,string fletching,int length)
@@ -12,41 +12,37 @@ public class Arrows
         _fletching = (Fletching) Enum.Parse(typeof(Fletching), fletching, true);
         _length = length;
     }
-
-
+    
+    public ArrowHead getHead() => _head;
+    public double getLength() => _length;
+    public Fletching getFletching() => _fletching;
     public void getCost()
     {
-    
-    int headNum = (int) _head;
-    int fletchNum = (int) _fletching;
 
-
-    
-    
-    decimal headCost = headNum switch
+    double headCost = _head.ToString() switch
                     {
-                        0 => 10,
-                        1 => 3,
-                        2 => 5,
+                        "Steel" => 10,
+                        "wood" => 3,
+                        "obsidian" => 5,
                         _ => 0
                     };
             
-    decimal fletchCost = fletchNum switch
+    double fletchCost = _fletching.ToString() switch
                 {
-                    0 => 3,
-                    1 => 5,
-                    2 => 10,
+                    "plastic" => 3,
+                    "turkeyFeather" => 5,
+                    "gooseFeather" => 10,
                     _ => 0
                 };
             
-    decimal lengthCost = _length * (decimal)0.05;
+    double lengthCost = _length * 0.05;
     
-    decimal totalCost = headCost + fletchCost + lengthCost;
+    double totalCost = headCost + fletchCost + lengthCost;
         
     Console.WriteLine($@"Your arrow is as follows:
     {_head} - {headCost} gold
     {_fletching} - {fletchCost} gold
     {_length} centimetres - {lengthCost} gold
     Total cost per arrow: {totalCost} gold");
-
-}}
+}
+}
