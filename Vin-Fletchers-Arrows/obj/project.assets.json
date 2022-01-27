@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Vin-Fletchers-Arrows\\Vin-Fletchers-Arrows.csproj",
+      "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Vin-Fletchers-Arrows\\Vin-Fletchers-Arrows.csproj",
       "projectName": "Vin-Fletchers-Arrows",
-      "projectPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Vin-Fletchers-Arrows\\Vin-Fletchers-Arrows.csproj",
+      "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Vin-Fletchers-Arrows\\Vin-Fletchers-Arrows.csproj",
       "packagesPath": "C:\\Users\\SJWillows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Vin-Fletchers-Arrows\\obj\\",
+      "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Vin-Fletchers-Arrows\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config"
