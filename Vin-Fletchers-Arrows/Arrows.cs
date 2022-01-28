@@ -2,7 +2,7 @@ namespace Arrows;
 
 public class Arrows
 {
-    private ArrowHead Head {get; set;}
+    public ArrowHead Head {get; set;}
     private double Length {get; set;}
     private Fletching Fletching {get; set;}
 
@@ -12,6 +12,9 @@ public class Arrows
         Fletching = fletching;
         Length = length;
     }
+    public static Arrows CreateEliteArrow() => new Arrows(ArrowHead.steel, Fletching.plastic, 95);
+    public static Arrows CreateBeginnerArrow() => new Arrows(ArrowHead.wood, Fletching.gooseFeather, 75);
+    public static Arrows CreateMarksmanArrow() => new Arrows(ArrowHead.steel, Fletching.gooseFeather, 65);
 
     public void getCost()
     {
@@ -43,3 +46,7 @@ public class Arrows
     Total cost per arrow: {totalCost} gold");
 }
 }
+
+
+    
+   
