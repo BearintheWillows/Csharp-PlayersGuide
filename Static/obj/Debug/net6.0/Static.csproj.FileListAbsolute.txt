@@ -1,0 +1,15 @@
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.csproj.AssemblyReference.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.AssemblyInfoInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.AssemblyInfo.cs
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\bin\Debug\net6.0\Static.exe
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\bin\Debug\net6.0\Static.deps.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\bin\Debug\net6.0\Static.runtimeconfig.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\bin\Debug\net6.0\Static.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\bin\Debug\net6.0\ref\Static.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\bin\Debug\net6.0\Static.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\ref\Static.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Static\obj\Debug\net6.0\Static.genruntimeconfig.cache

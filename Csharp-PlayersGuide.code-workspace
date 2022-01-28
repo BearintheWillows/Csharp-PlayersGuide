@@ -29,6 +29,12 @@
 		},
 		{
 			"path": "Vin-Fletchers-Arrows"
+		},
+		{
+			"path": "Static"
+		},
+		{
+			"path": "Null"
 		}
 	],
 	"settings": {}
