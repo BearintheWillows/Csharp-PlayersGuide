@@ -1,0 +1,15 @@
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\bin\Debug\net6.0\The-Point.exe
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\bin\Debug\net6.0\The-Point.deps.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\bin\Debug\net6.0\The-Point.runtimeconfig.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\bin\Debug\net6.0\The-Point.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\bin\Debug\net6.0\ref\The-Point.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\bin\Debug\net6.0\The-Point.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.csproj.AssemblyReference.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.AssemblyInfoInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.AssemblyInfo.cs
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\ref\The-Point.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Point\obj\Debug\net6.0\The-Point.genruntimeconfig.cache
