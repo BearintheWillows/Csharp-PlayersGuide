@@ -1,0 +1,15 @@
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.csproj.AssemblyReference.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.AssemblyInfoInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.AssemblyInfo.cs
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\bin\Debug\net6.0\The-Card.exe
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\bin\Debug\net6.0\The-Card.deps.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\bin\Debug\net6.0\The-Card.runtimeconfig.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\bin\Debug\net6.0\The-Card.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\bin\Debug\net6.0\ref\The-Card.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\bin\Debug\net6.0\The-Card.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\ref\The-Card.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Card\obj\Debug\net6.0\The-Card.genruntimeconfig.cache
