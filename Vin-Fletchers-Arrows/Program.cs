@@ -11,4 +11,4 @@ set1.getCost();
 Arrows.Arrows elite = Arrows.Arrows.CreateEliteArrow();
 
 
-Console.WriteLine(elite);
+Console.WriteLine(elite.Head);

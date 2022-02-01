@@ -34,7 +34,10 @@
 			"path": "Static"
 		},
 		{
-			"path": "Null"
+			"path": "Catacombs-of-the-Class"
+		},
+		{
+			"path": "Catacombs-of-the-Class\\The-Card"
 		}
 	],
 	"settings": {}
