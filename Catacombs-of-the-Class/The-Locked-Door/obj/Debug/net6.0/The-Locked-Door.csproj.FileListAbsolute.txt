@@ -1,0 +1,15 @@
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.csproj.AssemblyReference.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.AssemblyInfoInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.AssemblyInfo.cs
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\bin\Debug\net6.0\The-Locked-Door.exe
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\bin\Debug\net6.0\The-Locked-Door.deps.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\bin\Debug\net6.0\The-Locked-Door.runtimeconfig.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\bin\Debug\net6.0\The-Locked-Door.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\bin\Debug\net6.0\ref\The-Locked-Door.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\bin\Debug\net6.0\The-Locked-Door.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\ref\The-Locked-Door.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Catacombs-of-the-Class\The-Locked-Door\obj\Debug\net6.0\The-Locked-Door.genruntimeconfig.cache
