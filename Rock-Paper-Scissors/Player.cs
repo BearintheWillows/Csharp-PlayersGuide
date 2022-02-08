@@ -4,12 +4,12 @@ public class Player
 {
     public int Score { get; set; }
 
-    public static void ChooseAction()
+    public Action ChooseAction()
     {
         Array values = Enum.GetValues(typeof(Action));
-        Random randomNum = new Random(3);
-        Action randomAction = (Action) values.GetValue(randomNum.Next(values.Length - 1))!;
-Console.WriteLine(randomAction);
-    
+        Random randomNum = new Random();
+        Action randomAction = (Action) values.GetValue(randomNum.Next(3));
+
+        return randomAction;
     }
 }
