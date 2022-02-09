@@ -5,5 +5,3 @@ Player a = new Player();
 Player b = new Player();
 
 Game aVSb = new Game(a, b);
-
-Player.ChooseAction();
