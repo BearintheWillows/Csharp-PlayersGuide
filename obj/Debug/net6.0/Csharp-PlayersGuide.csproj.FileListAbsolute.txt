@@ -1,0 +1,5 @@
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\obj\Debug\net6.0\Csharp-PlayersGuide.csproj.AssemblyReference.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\obj\Debug\net6.0\Csharp-PlayersGuide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\obj\Debug\net6.0\Csharp-PlayersGuide.AssemblyInfoInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\obj\Debug\net6.0\Csharp-PlayersGuide.AssemblyInfo.cs
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\obj\Debug\net6.0\Csharp-PlayersGuide.csproj.CoreCompileInputs.cache

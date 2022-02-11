@@ -7,7 +7,7 @@ if (name != null)
 
 // null coalescing operator
 
-private string GetTopPlayerName() 
+public string GetTopPlayerName() 
 {
     string? name = _scoreManager?.GetScores()?[0]?.Name;
     name ??= "(not found)";

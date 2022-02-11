@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Csharp-PlayersGuide.csproj": {}
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Csharp-PlayersGuide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Csharp-PlayersGuide.csproj": {
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Csharp-PlayersGuide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Csharp-PlayersGuide.csproj",
+        "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Csharp-PlayersGuide.csproj",
         "projectName": "Csharp-PlayersGuide",
-        "projectPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Csharp-PlayersGuide.csproj",
+        "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Csharp-PlayersGuide.csproj",
         "packagesPath": "C:\\Users\\SJWillows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\obj\\",
+        "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

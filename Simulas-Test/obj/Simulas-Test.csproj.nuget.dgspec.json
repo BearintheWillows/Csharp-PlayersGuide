@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Simulas-Test\\Simulas-Test.csproj": {}
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Simulas-Test\\Simulas-Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Simulas-Test\\Simulas-Test.csproj": {
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Simulas-Test\\Simulas-Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Simulas-Test\\Simulas-Test.csproj",
+        "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Simulas-Test\\Simulas-Test.csproj",
         "projectName": "Simulas-Test",
-        "projectPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Simulas-Test\\Simulas-Test.csproj",
+        "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Simulas-Test\\Simulas-Test.csproj",
         "packagesPath": "C:\\Users\\SJWillows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Simulas-Test\\obj\\",
+        "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Simulas-Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

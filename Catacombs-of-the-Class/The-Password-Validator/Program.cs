@@ -1,3 +1,8 @@
-﻿using Password;
+﻿
+using ValidatorInstance = PasswordInstance.Validator;
+using Validator = Password.Validator;
 
-Validator.passwordValidator();
+// Validator.passwordValidator();
+
+ValidatorInstance newValidator = new ValidatorInstance();
+

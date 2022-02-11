@@ -41,6 +41,9 @@
 		},
 		{
 			"path": "Catacombs-of-the-Class\\The-Locked-Door"
+		},
+		{
+			"path": "Catacombs-of-the-Class\\The-Password-Validator"
 		}
 	],
 	"settings": {}

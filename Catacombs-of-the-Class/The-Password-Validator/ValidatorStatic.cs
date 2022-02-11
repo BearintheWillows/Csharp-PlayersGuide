@@ -1,14 +1,14 @@
 namespace Password;
+
 public static class Validator
 {
-
-    private static string Password { get; set; }
-    private static bool EndSession { get; set; } = false;
-    private static bool Result { get; set; }
-    private static bool IsUpper { get; set; }
-    private static bool IsLower { get; set; }
-    private static bool IsNumber { get; set; }
-    private static bool InvalidChar {get; set;}
+    private static string Password    { get; set; }
+    private static bool   EndSession  { get; set; } = false;
+    private static bool   Result      { get; set; }
+    private static bool   IsUpper     { get; set; }
+    private static bool   IsLower     { get; set; }
+    private static bool   IsNumber    { get; set; }
+    private static bool   InvalidChar { get; set; }
 
     public static void passwordValidator()
     {
@@ -24,8 +24,6 @@ public static class Validator
             {
                 checkPassword(input);
             }
-
-
         } while (EndSession != true);
     }
 
@@ -39,20 +37,23 @@ public static class Validator
                 {
                     IsLower = true;
                 }
+
                 if (char.IsUpper(letter))
                 {
                     IsUpper = true;
                 }
+
                 if (char.IsNumber(letter))
                 {
                     IsNumber = true;
                 }
+
                 if (letter.Equals('T') || letter.Equals('&'))
                 {
                     InvalidChar = true;
                 }
-                
             }
+
             if (InvalidChar == false && IsUpper == true && IsLower == true && IsNumber == true)
             {
                 Console.WriteLine($"Password: {Password} is valid.");
@@ -67,8 +68,6 @@ public static class Validator
             IsNumber = false;
             InvalidChar = false;
             Password = "";
-
         }
-
     }
 }
