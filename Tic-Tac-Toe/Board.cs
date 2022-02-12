@@ -2,32 +2,44 @@
 
 public class Board
 {
-    public BoardSquare?[,] _boardState;
+    private BoardSquare?[,] BoardState = new BoardSquare?[3,3];
+    
 
-
-    public Board()
+    public void ChangeState(BoardSquare symbol,int row, int column)
     {
-        BoardSquare[,] _boardState = new BoardSquare[3, 3];
-        _boardState[0, 0] = BoardSquare.X;
-        BoardSquare response;
-        string blank = " ";
-        for (var index0 = 0; index0 < _boardState.GetLength(0); index0++)
+        BoardState[row, column] = symbol;
+        RenderBoard();
+    }
+
+    public void RenderBoard()
+    {
+        for (var index0 = 0; index0 < BoardState.GetLength(0); index0++)
         {
-            Console.WriteLine();
-            Console.WriteLine("-----|-----------|-------");
-            for (var index1 = 0; index1 < _boardState.GetLength(1); index1++)
+            if (index0 >= 1)
             {
-                Console.Write($"{_boardState[index0, index1]} - ");
-                if (_boardState[index0, index1] == BoardSquare.Empty)
+                Console.WriteLine();
+                Console.WriteLine("---|---|---");
+            }
+            
+            for (var index1 = 0; index1 < BoardState.GetLength(1); index1++)
+            {
+                if (index1 == 0)
                 {
-                    if (Enum.TryParse(blank, out response))
-                    {
-                        _boardState[index0, index1] = BoardSquare.X;
-                    }
+                    Console.Write(" ");
                 }
 
+                BoardState[index0, index1] = null;
                 
-                Console.Write($"{_boardState[index0, index1]} | ");
+                Console.Write(BoardState[index0, index1]);
+                if (index1 < 2 && BoardState[index0, index1] == null)
+                {
+                    Console.Write("  | ");
+                }
+                else if (index1 < 2)
+                {
+                    Console.Write(" | ");
+                }
+                
             }
         }
     }
