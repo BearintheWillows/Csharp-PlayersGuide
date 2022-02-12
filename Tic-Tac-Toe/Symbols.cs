@@ -1,6 +1,6 @@
 ﻿namespace Csharp_PlayersGuide.Tic_Tac_Toe;
 
-public enum BoardSquare
+public enum Symbols
 {
 /** Board Squares. Visualised as:
  *         Nw = 0  | N = 1  | Ne = 2
