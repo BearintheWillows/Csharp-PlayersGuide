@@ -9,15 +9,21 @@ public class Player
 
 
 
-    public void chooseSymbol()
+    public void ChooseSymbol()
     {
-        if (Console.ReadKey(true).Key == ConsoleKey.X)
+        var input = Console.ReadKey(true).Key;
+
+        switch (input)
         {
-            Symbol = Symbols.X;
-        }
-        else
-        {
-            Symbol = Symbols.O;
+            case ConsoleKey.X:
+                Symbol = Symbols.X;
+                break;
+            case ConsoleKey.O:
+                Symbol = Symbols.O;
+                break;
+            default:
+                Console.WriteLine("Please press X or O on your keyboard now");
+                break;
         }
     }
 }
