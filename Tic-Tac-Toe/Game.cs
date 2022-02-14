@@ -7,7 +7,8 @@ public class Game
     private Player PlayerTwo      { get; } = new Player();
     public  Player ActivePlayer   { get; private set; }
     private Player InactivePlayer { get; set; }
- 
+    private bool   GameWon        { get; set; } = false;
+
 
     public Game()
     {
@@ -25,14 +26,15 @@ public class Game
         Console.WriteLine("Choose a symbol: Press X or O on your keyboard now");
         ActivePlayer.ChooseSymbol();
         AssignSymbol();
-        Console.WriteLine($"You've chosen: {ActivePlayer.Symbol}. {InactivePlayer.Name}, you are {InactivePlayer.Symbol}.");
+        Console.WriteLine(
+            $"You've chosen: {ActivePlayer.Symbol}. {InactivePlayer.Name}, you are {InactivePlayer.Symbol}.");
     }
 
     private void PlayGame()
     {
         int round = 0;
         bool winner = false;
-        
+
         Console.Clear();
         Console.WriteLine("To Play, choose a square by pressing the corresponding" +
                           " square number on your keyboard as shown below");
@@ -41,32 +43,81 @@ public class Game
         {
             Console.WriteLine();
             Console.WriteLine($" --- Round {round} Starts ---");
-                    Console.WriteLine($"{ActivePlayer.Name} Choose A square: ");
-                    Board.ChangeState(Console.ReadKey(true).Key, ActivePlayer);
-                    Board.RenderBoard(BoardRender.CurrentState);
-                    Console.Clear();
-                    Console.WriteLine();
-                    Console.WriteLine("Here's the current board");
-                    Board.RenderBoard(BoardRender.CurrentState);
-                    changePlayer();
-                    round++;
-                    checkWinner();
-        } while (!winner);
-        
-            
+            Console.WriteLine($"{ActivePlayer.Name} Choose A square: ");
+            Board.ChangeState(Console.ReadKey(true).Key, ActivePlayer);
+            Board.RenderBoard(BoardRender.CurrentState);
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine("Here's the current board");
+            Board.RenderBoard(BoardRender.CurrentState);
+            changePlayer();
+            round++;
+            checkWinner();
+            if (GameWon)
+            {
+                Console.Clear();
+                Console.WriteLine($"Coongratulations! {ActivePlayer.Name} you have won!");
+                Board.RenderBoard(BoardRender.CurrentState);
+            }
+        } while (!GameWon);
     }
 
     private void checkWinner()
     {
-        Symbols symbol1;
-        Symbols symbol2;
-        Symbols symbol3;
-        for (var index0 = 0; index0 < Board.BoardState.GetLength(0); index0++)
-            for (var index1 = 0; index1 < Board.BoardState.GetLength(1); index1++)
-            {
-                Console.WriteLine(Board.BoardState[index0, index1]);
+        Symbols?[][] winCheckArray = new Symbols?[4][];
+        int column = 0;
+        int row = 0;
 
+        for (int i = 0; i < 3; i++)
+        {
+            winCheckArray[0] = new[]
+                {Board.BoardState[row, column], Board.BoardState[row, column + 1], Board.BoardState[row, column + 2]};
+          
+            foreach (var VARIABLE in winCheckArray[0].Where(n => n != null))
+            {
+                if (winCheckArray[0].Distinct().Take(2).Count() == 1)
+                {
+                    GameWon = true;
+                }
             }
+            row++;
+        }
+
+        column = 0;
+        row = 0;
+        for (int i = 0; i < 3; i++)
+        {
+            winCheckArray[1] = new[]
+                {Board.BoardState[row, column], Board.BoardState[row + 1, column], Board.BoardState[row + 1, column]};
+          
+            foreach (var VARIABLE in winCheckArray[1].Where(n => n != null))
+            {
+                if (winCheckArray[1].Distinct().Take(2).Count() == 1)
+                {
+                    GameWon = true;
+                }
+            }
+            column++;
+        }
+
+        winCheckArray[2] = new[]
+            {Board.BoardState[0, 0], Board.BoardState[1, 1], Board.BoardState[2, 2]};
+        foreach (var VARIABLE in winCheckArray[2].Where(n => n != null))
+        {
+            if (winCheckArray[2].Distinct().Take(2).Count() == 1)
+            {
+                GameWon = true;
+            }
+        }
+        winCheckArray[3] = new[] {Board.BoardState[0, 2], Board.BoardState[1, 1], Board.BoardState[2, 0]};
+        foreach (var VARIABLE in winCheckArray[3].Where(n => n != null))
+        {
+            if (winCheckArray[3].Distinct().Take(2).Count() == 1)
+            {
+                GameWon = true;
+            }
+        }
+        
     }
 
     public void AssignSymbol()
