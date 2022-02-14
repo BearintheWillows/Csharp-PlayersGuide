@@ -5,6 +5,7 @@ public class Board
     public Symbols?[,] BoardState       = new Symbols?[3, 3];
     private int[,]      BoardNumberState = new int[3, 3];
 
+    //Changes the corresponding Array value to the ActivePlayers symbol
     public void ChangeState(ConsoleKey squareNumber, Player activePlayer)
     {
         switch (squareNumber)
@@ -66,6 +67,7 @@ public class Board
         }
     }
 
+    //Checks to see if the elected square already has a value != null
     private bool CheckSquare(Player activePlayer, int column, int row)
     {
         if (BoardState[column, row] != Symbols.Empty && BoardState[column, row] != null)
@@ -78,7 +80,15 @@ public class Board
         return true;
     }
 
-    //Renders the board in console based on contents of BoardState Array
+    //Renders the board in console based on contents of BoardState Array.
+    /** Board Squares. Visualised as:
+ *         Nw = 0  | N = 1  | Ne = 2
+ *        --------------------------
+ *         W = 3   | C = 4  | E = 5
+ *        --------------------------
+ *         E = 6   | s = 7  | Se = 8         
+ */
+
     public void RenderBoard(BoardRender renderType)
     {
         int boardNumber = 0;
