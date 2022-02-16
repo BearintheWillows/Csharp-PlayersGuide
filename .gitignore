@@ -1,0 +1,7 @@
+# ignore ALL .of these files files
+
+*.idea
+*.vscode
+*.vs
+*obj/
+*bin/
