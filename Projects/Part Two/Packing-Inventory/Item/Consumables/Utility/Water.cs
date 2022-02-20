@@ -6,5 +6,6 @@ public class Water : Item
     {
         Weight = 2;
         Volume = 3;
+        Name = "Water";
     }
 }

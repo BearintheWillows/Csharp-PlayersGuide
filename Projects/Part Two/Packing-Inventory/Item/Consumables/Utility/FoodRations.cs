@@ -6,5 +6,6 @@ public class FoodRations : Item
     {
         Weight = 1;
         Volume = 0.5;
+        Name = "Food";
     }
 }

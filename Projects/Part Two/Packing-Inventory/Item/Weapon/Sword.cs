@@ -6,5 +6,6 @@ public class Sword : Item
     {
         Weight = 5;
         Volume = 3;
+        Name = "Sword";
     }
 }

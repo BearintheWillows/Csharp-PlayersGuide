@@ -3,8 +3,8 @@
 public class SmallPack : Pack
 {
 
-    public SmallPack() : base (5, 15, 10)
+    public SmallPack() : base (5, 10, 12)
     {
-        
+        Name = "Small Pack";
     }
 }

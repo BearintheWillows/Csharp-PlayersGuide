@@ -6,5 +6,6 @@ public class Arrow : Item
     {
         Weight = 0.1;
         Volume = 0.05;
+        Name = "Arrow";
     }
 }
