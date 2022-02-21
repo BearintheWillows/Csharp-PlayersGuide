@@ -2,8 +2,17 @@
 
 public class MediumPack : Pack
 {
-    public MediumPack() : base (7, 15, 17)
+    public MediumPack() : base (7, 15, 17) { }
+    
+    public override string? ToString()
     {
-        Name = "Medium Pack";
+        Console.WriteLine("Pack Size: Medium");
+        Console.WriteLine("Pack Contains: ");
+        foreach (var item in StoredItems)
+        {
+            Console.WriteLine(item.ToString());
+        }
+
+        return null;
     }
 }

@@ -1,4 +1,4 @@
-namespace Packing_Inventory.Item.Weapon;
+namespace Packing_Inventory.Item;
 
 public class Sword : Item
 {
@@ -6,6 +6,8 @@ public class Sword : Item
     {
         Weight = 5;
         Volume = 3;
-        Name = "Sword";
     }
+
+    public override string ToString() => "Sword";
+    
 }

@@ -1,4 +1,4 @@
-namespace Packing_Inventory.Item.Consumables.Utility;
+namespace Packing_Inventory.Item;
 
 public class FoodRations : Item
 {
@@ -6,6 +6,7 @@ public class FoodRations : Item
     {
         Weight = 1;
         Volume = 0.5;
-        Name = "Food";
     }
+    
+    public override string ToString() => "Food";
 }

@@ -1,4 +1,4 @@
-namespace Packing_Inventory.Item.Consumables.Utility;
+namespace Packing_Inventory.Item;
 
 public class Rope : Item
 {
@@ -6,6 +6,7 @@ public class Rope : Item
     {
         Weight = 1;
         Volume = 1.5;
-        Name = "Rope";
     }
+    
+    public override string ToString() => "Rope";
 }

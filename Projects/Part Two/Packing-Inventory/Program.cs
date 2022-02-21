@@ -1,10 +1,9 @@
 ﻿
 using Packing_Inventory.Item;
-using Packing_Inventory.Item.Consumables.Ammo;
-using Packing_Inventory.Item.Weapon;
-using Packing_Inventory.Item.Consumables.Utility;
 using Packing_Inventory.Packs;
 
+Arrow arrow = new Arrow();
+Console.WriteLine(arrow.ToString());
 string answer;
 Pack userPack = ChoosePack();
 
@@ -95,8 +94,9 @@ void ItemCreator(string item)
     if (userPack.AddItem(newItem))
     {
         Console.Clear();
-        Console.WriteLine($"Success. {newItem.Name} has been added to your pack");
+        Console.WriteLine($"Success. {newItem} has been added to your pack");
         userPack.ReportPackState();
+        userPack.ToString();
     }
     else
     {

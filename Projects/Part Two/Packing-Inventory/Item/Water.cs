@@ -1,4 +1,4 @@
-namespace Packing_Inventory.Item.Consumables.Utility;
+namespace Packing_Inventory.Item;
 
 public class Water : Item
 {
@@ -6,6 +6,7 @@ public class Water : Item
     {
         Weight = 2;
         Volume = 3;
-        Name = "Water";
     }
+    
+    public override string ToString() => "Water";
 }

@@ -50,19 +50,10 @@ public class Pack
 
     public void ReportPackState()
     {
-        Console.WriteLine($"Pack Size: {Name}");
+        
         Console.WriteLine($"Current Items {CurrentItems}/{MaxItems}");
         Console.WriteLine($"Current Wight: {CurrentWeight}/{MaxWeight}");
         Console.WriteLine($"Current Volume: {CurrentVolume}/{MaxVolume}");
-        
-        Console.WriteLine("Items within pack:");
-        int itemNum = 1;
-        foreach (var variable in StoredItems)
-            if (variable != null)
-            {
-                Console.WriteLine($"Item {itemNum}: {variable.Name}");
-                itemNum++;
-            }
-        
+
     }
 }
