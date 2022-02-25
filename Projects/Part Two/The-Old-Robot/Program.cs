@@ -18,17 +18,17 @@ for (int i = 0; i < 3; i++)
     RobotCommand? command = null;
     switch (input.ToLower())
     {
-        case "East":
+        case "east":
             command = new EastCommand();
             break;
-        case "North":
+        case "north":
             command = new NorthCommand();
             Console.WriteLine(command);
             break;
-        case "West":
+        case "west":
             command = new WestCommand();
             break;
-        case "South":
+        case "south":
             command = new SouthCommand();
             break;
     }

@@ -6,7 +6,7 @@ public class SouthCommand : RobotCommand
     {
         if (robot.IsPowered)
         {
-            robot.Y =+ 1; 
+            robot.Y += 1; 
         }
         
     }

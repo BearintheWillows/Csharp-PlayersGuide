@@ -6,7 +6,7 @@ public class EastCommand : RobotCommand
     {
         if (robot.IsPowered)
         {
-            robot.X =- 1;
+            robot.X -= 1;
         }
         
     }
