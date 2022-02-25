@@ -6,7 +6,7 @@ Robot robot1 = new Robot();
 Console.WriteLine("Beep Boop. Power on?");
 if (Console.ReadLine().ToLower() == "yes")
 {
-    RobotCommand commandOn = new OnCommand();
+    IRobotCommand commandOn = new OnCommand();
     commandOn.Run(robot1);
 }
 
@@ -15,7 +15,7 @@ Console.WriteLine("Boop Beep. Working. Where to go?");
 for (int i = 0; i < 3; i++)
 {
     string input = Console.ReadLine();
-    RobotCommand? command = null;
+    IRobotCommand? command = null;
     switch (input.ToLower())
     {
         case "east":
