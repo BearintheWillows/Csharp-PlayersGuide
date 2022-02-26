@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\class\\class.csproj": {}
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\class\\class.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\class\\class.csproj": {
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\class\\class.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\class\\class.csproj",
+        "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\class\\class.csproj",
         "projectName": "class",
-        "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\class\\class.csproj",
+        "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\class\\class.csproj",
         "packagesPath": "C:\\Users\\SJWillows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\class\\obj\\",
+        "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\class\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Static\\Static.csproj": {}
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\Static\\Static.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Static\\Static.csproj": {
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\Static\\Static.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Static\\Static.csproj",
+        "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\Static\\Static.csproj",
         "projectName": "Static",
-        "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Static\\Static.csproj",
+        "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\Static\\Static.csproj",
         "packagesPath": "C:\\Users\\SJWillows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Static\\obj\\",
+        "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Learning Modules\\Static\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

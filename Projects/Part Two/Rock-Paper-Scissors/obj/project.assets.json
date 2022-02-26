@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Rock-Paper-Scissors\\Rock-Paper-Scissors.csproj",
+      "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part Two\\Rock-Paper-Scissors\\Rock-Paper-Scissors.csproj",
       "projectName": "Rock-Paper-Scissors",
-      "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Rock-Paper-Scissors\\Rock-Paper-Scissors.csproj",
+      "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part Two\\Rock-Paper-Scissors\\Rock-Paper-Scissors.csproj",
       "packagesPath": "C:\\Users\\SJWillows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Rock-Paper-Scissors\\obj\\",
+      "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part Two\\Rock-Paper-Scissors\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config",
