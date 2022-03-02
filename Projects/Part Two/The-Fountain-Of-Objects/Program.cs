@@ -1,10 +1,8 @@
 ﻿using The_Fountain_Of_Objects.BaseGame;
-
-Console.WriteLine(Senses.See(false));
+using The_Fountain_Of_Objects.BaseGame.Enums;
 
 Board newBoard = new Board();
 
-foreach (var VARIABLE in newBoard.BoardState)
-{
-    Console.WriteLine(VARIABLE);
-}
+newBoard.SetCurrentPosition(Heading.North);
+newBoard.SetCurrentPosition(Heading.North);
+newBoard.SetCurrentPosition(Heading.South);

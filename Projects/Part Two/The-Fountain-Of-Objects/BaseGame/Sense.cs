@@ -2,6 +2,7 @@
 
 public static class Senses
 {
+    
     public static string Hear(bool fountainActivated)
     {
         return fountainActivated ? "You hear the rushing waters from the Fountain of Objects. It has been reactivated!" : "You hear water dripping. The Fountain of Objects is here!";
