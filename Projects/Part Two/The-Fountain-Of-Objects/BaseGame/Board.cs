@@ -1,11 +1,11 @@
-﻿using The_Fountain_Of_Objects.BaseGame.Enums;
+﻿using System.Globalization;
+using The_Fountain_Of_Objects.BaseGame.Enums;
 
 namespace The_Fountain_Of_Objects.BaseGame;
 
 public class Board
 {
-    public RoomType[,]    BoardState      { get; set; } = new RoomType[4, 4];
-    public PlayerPosition CurrentPlayerPosition { get; set; } = new(0, 0);
+    public RoomType[,] BoardState { get; set; } = new RoomType[4, 4];
 
     public Board()
     {
@@ -20,47 +20,73 @@ public class Board
         BoardState[0, 2] = RoomType.Fountain;
     }
 
-    public void SetCurrentPosition(Heading heading)
+    public PlayerPosition SetCurrentPosition(string heading, PlayerPosition playerPosition)
     {
-        switch (heading)
+        //Creates a Culture info obj
+        TextInfo myTI = new CultureInfo("en-UK", false).TextInfo;
+
+        // Converts heading to a title case to match Enum
+        heading = myTI.ToTitleCase(heading);
+
+        //Parses heading and converts to applicable Enum.
+        Enum.TryParse(heading, out Heading newHeading);
+
+        switch (newHeading)
         {
             case Heading.North:
-                if (CurrentPlayerPosition.Row > 0)
+                if (playerPosition.Row > 0)
                 {
-                    CurrentPlayerPosition =
-                        new PlayerPosition(CurrentPlayerPosition.Row - 1, CurrentPlayerPosition.Column);
+                    playerPosition =
+                        new PlayerPosition(playerPosition.Row - 1, playerPosition.Column);
                 }
                 else
                 {
                     Console.WriteLine("You can't move any further north");
                 }
                 break;
-            case Heading.East:
-                if (CurrentPlayerPosition.Column < 3)
-                {
-                    CurrentPlayerPosition =
-                        new PlayerPosition(CurrentPlayerPosition.Row, CurrentPlayerPosition.Column + 1);
-                }
-                break;
-            case Heading.South:
-                if (CurrentPlayerPosition.Row < 3)
-                {
-                    CurrentPlayerPosition =
-                        new PlayerPosition(CurrentPlayerPosition.Row + 1, CurrentPlayerPosition.Column);
-                }
 
-                break;
-            case Heading.West:
-                if (CurrentPlayerPosition.Column > 0)
+            case Heading.East:
+                if (playerPosition.Column < 3)
                 {
-                    CurrentPlayerPosition =
-                        new PlayerPosition(CurrentPlayerPosition.Row, CurrentPlayerPosition.Column - 1);
+                    playerPosition =
+                        new PlayerPosition(playerPosition.Row, playerPosition.Column + 1);
+                }
+                else
+                {
+                    Console.WriteLine("You can't move further East.");
                 }
                 break;
+
+            case Heading.South:
+                if (playerPosition.Row < 3)
+                {
+                    playerPosition =
+                        new PlayerPosition(playerPosition.Row + 1, playerPosition.Column);
+                }
+                else
+                {
+                    OutputColour.Change(OutputType.Warning);
+                    Console.WriteLine("You can't move further South.");
+                }
+                break;
+
+            case Heading.West:
+                if (playerPosition.Column > 0)
+                {
+                    playerPosition =
+                        new PlayerPosition(playerPosition.Row, playerPosition.Column - 1);
+                }
+                else
+                {
+                    Console.WriteLine("You can't move further West.");
+                }
+                break;
+
             default:
                 Console.WriteLine("You Can't go that way young padawan");
                 break;
         }
-        Console.WriteLine(CurrentPlayerPosition);
+        return playerPosition;
+
     }
 }

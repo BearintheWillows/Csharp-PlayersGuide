@@ -2,5 +2,5 @@
 
 public enum Heading
 {
-    North, East, South, West
+    North, East, South, West, Error
 }

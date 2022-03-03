@@ -1,3 +1,8 @@
-﻿namespace The_Fountain_Of_Objects.BaseGame;
+﻿using The_Fountain_Of_Objects.BaseGame.Enums;
 
-public record struct PlayerPosition(int Row, int Column);
+namespace The_Fountain_Of_Objects.BaseGame;
+
+public record struct PlayerPosition(int Row, int Column)
+{
+ 
+}

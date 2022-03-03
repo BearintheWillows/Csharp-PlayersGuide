@@ -2,5 +2,5 @@
 
 public class Bow
 {
-    
+    public int Sharpness { get; set; }
 }

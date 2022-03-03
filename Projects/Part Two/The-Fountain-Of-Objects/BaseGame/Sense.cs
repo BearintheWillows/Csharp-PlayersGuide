@@ -1,6 +1,6 @@
 ﻿namespace The_Fountain_Of_Objects.BaseGame;
 
-public static class Senses
+public static class Sense
 {
     
     public static string Hear(bool fountainActivated)

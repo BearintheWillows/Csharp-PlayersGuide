@@ -1,14 +1,13 @@
 ﻿namespace Colored_Items;
 
-public class ColoredItem<T>
+public class ColoredItem<T> where T : new()
 {
-    public T            Item  { get; }
+    public T            Item  { get; } = new ();
     public ConsoleColor Color { get; set; }
     
-    public ColoredItem(T item,ConsoleColor color)
+    public ColoredItem(ConsoleColor color)
     {
         Color = color;
-        Item = item;
     }
 
     public void Display()
