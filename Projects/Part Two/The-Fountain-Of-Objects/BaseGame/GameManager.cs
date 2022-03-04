@@ -4,16 +4,16 @@ namespace The_Fountain_Of_Objects.BaseGame
 {
     public class GameManager
     {
-
         public Board Board { get; set; } = new();
         public PlayerPosition PlayerPosition { get; set; } = new(0, 0);
         private bool _gameWin = false;
+        private BoardRender _boardRender = new BoardRender();
 
         public void Run()
         {
             do
             {
-
+                _boardRender.Render(Board.BoardState, PlayerPosition);
                 Console.WriteLine("!- - - - - - - - - - - - - ************ - - - - - - - - - - - - - -!");
                 OutputColour.Change(OutputType.Story);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
@@ -35,17 +35,13 @@ namespace The_Fountain_Of_Objects.BaseGame
                 PlayerPosition = Board.ChooseAction(Console.ReadLine().ToLower(), PlayerPosition);
                 OutputColour.Change(OutputType.Neutral);
                 CheckWin();
-
             } while (!_gameWin);
-
         }
 
         public string? GetSense()
         {
-
             if (PlayerPosition.Column == 0 && PlayerPosition.Row == 0)
             {
-
                 return Sense.See(true);
             }
             else if (PlayerPosition.Column == 2 && PlayerPosition.Row == 0)
@@ -61,9 +57,8 @@ namespace The_Fountain_Of_Objects.BaseGame
 
         private void CheckWin()
         {
-            if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Board.FountainActive == true)
+            if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Board.FountainActive )
             {
-
                 OutputColour.Change(OutputType.Winner);
                 _gameWin = true;
                 Console.WriteLine("!- - - - - - - - - - - - - - WINNER - - - - - - - - - - - - - - - -!");
@@ -72,9 +67,7 @@ namespace The_Fountain_Of_Objects.BaseGame
                 Console.WriteLine("You Win!")
 
         ;
-
             }
         }
-
     }
 }

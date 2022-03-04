@@ -4,7 +4,6 @@ namespace The_Fountain_Of_Objects.BaseGame;
 
 public static class Sense
 {
-
     public static string Hear(bool fountainActive)
     {
         OutputColour.Change(OutputType.UniqueRoom);

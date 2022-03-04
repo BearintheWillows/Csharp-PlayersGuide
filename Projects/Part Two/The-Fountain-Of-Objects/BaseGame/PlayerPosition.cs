@@ -2,5 +2,4 @@
 
 public record struct PlayerPosition(int Row, int Column)
 {
-
 }

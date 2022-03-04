@@ -4,7 +4,6 @@ namespace The_Fountain_Of_Objects.BaseGame
 {
     public static class OutputColour
     {
-
         public static void Change(OutputType type)
         {
             if (type == OutputType.Warning) Console.ForegroundColor = ConsoleColor.Red;
@@ -13,6 +12,5 @@ namespace The_Fountain_Of_Objects.BaseGame
             if (type == OutputType.Story) Console.ForegroundColor = ConsoleColor.Green;
             if (type == OutputType.Winner) Console.ForegroundColor = ConsoleColor.Yellow;
         }
-
     }
 }

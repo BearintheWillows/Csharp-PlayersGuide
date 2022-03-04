@@ -32,7 +32,6 @@ public class Board
         //Parses heading and converts to applicable Enum.
         if (Enum.TryParse(heading, out Heading newHeading))
         {
-
             switch (newHeading)
             {
                 case Heading.North:
@@ -91,7 +90,6 @@ public class Board
 
                     break;
             }
-
         }
         else if (heading == "Activate Fountain" && playerPosition.Row == 0 && playerPosition.Column == 2)
         {
@@ -103,16 +101,11 @@ public class Board
             Console.WriteLine("Invalid Option Typed");
             Console.WriteLine("Please Type for Navigation: North, East, South, West");
             Console.WriteLine("If you are in the Fountain Room, you can Type: Activate Fountain");
-
         }
         if ((playerPosition.Row == 0 && playerPosition.Column == 0) || (playerPosition.Row == 0 && playerPosition.Column == 2))
         {
             OutputColour.Change(OutputType.UniqueRoom);
         }
         return playerPosition;
-
     }
-
-    
-
 }
