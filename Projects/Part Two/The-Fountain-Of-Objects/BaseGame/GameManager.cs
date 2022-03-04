@@ -13,14 +13,25 @@ namespace The_Fountain_Of_Objects.BaseGame
         {
             do
             {
+
                 Console.WriteLine("!- - - - - - - - - - - - - ************ - - - - - - - - - - - - - -!");
+                OutputColour.Change(OutputType.Story);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
                 if (GetSense() != null)
                 {
                     Console.WriteLine(GetSense());
                 }
+                OutputColour.Change(OutputType.Neutral);
 
-                Console.Write("Where are you moving to? ");
+                if (PlayerPosition.Row == 0 && PlayerPosition.Column == 2)
+                {
+                    Console.WriteLine("What do you wish to do?");
+                }
+                else
+                {
+                    Console.Write("Where are you moving to? ");
+                }
+
                 PlayerPosition = Board.ChooseAction(Console.ReadLine().ToLower(), PlayerPosition);
                 OutputColour.Change(OutputType.Neutral);
                 CheckWin();
@@ -34,6 +45,7 @@ namespace The_Fountain_Of_Objects.BaseGame
 
             if (PlayerPosition.Column == 0 && PlayerPosition.Row == 0)
             {
+
                 return Sense.See(true);
             }
             else if (PlayerPosition.Column == 2 && PlayerPosition.Row == 0)
@@ -51,12 +63,18 @@ namespace The_Fountain_Of_Objects.BaseGame
         {
             if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Board.FountainActive == true)
             {
+
+                OutputColour.Change(OutputType.Winner);
                 _gameWin = true;
-                Console.WriteLine("!- - - - - - - - - - - - - ************ - - - - - - - - - - - - - -!");
+                Console.WriteLine("!- - - - - - - - - - - - - - WINNER - - - - - - - - - - - - - - - -!");
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
                 Console.WriteLine("You have escaped with your life and the fountain is finally activated!");
-                Console.WriteLine("You Win!");
+                Console.WriteLine("You Win!")
+
+        ;
+
             }
         }
+
     }
 }

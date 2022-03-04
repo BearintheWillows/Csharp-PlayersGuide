@@ -2,6 +2,6 @@
 {
     public enum OutputType
     {
-        Warning, Neutral
+        Warning, Neutral, UniqueRoom, Story, Winner
     }
 }

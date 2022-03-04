@@ -105,8 +105,14 @@ public class Board
             Console.WriteLine("If you are in the Fountain Room, you can Type: Activate Fountain");
 
         }
+        if ((playerPosition.Row == 0 && playerPosition.Column == 0) || (playerPosition.Row == 0 && playerPosition.Column == 2))
+        {
+            OutputColour.Change(OutputType.UniqueRoom);
+        }
         return playerPosition;
 
     }
+
+    
 
 }
