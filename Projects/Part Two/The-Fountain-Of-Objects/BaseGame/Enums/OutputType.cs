@@ -1,8 +1,6 @@
-﻿
-
-namespace The_Fountain_Of_Objects.BaseGame.Enums
+﻿namespace The_Fountain_Of_Objects.BaseGame.Enums
 {
-    public  enum OutputType
+    public enum OutputType
     {
         Warning, Neutral
     }
