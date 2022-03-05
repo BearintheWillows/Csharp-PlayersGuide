@@ -10,12 +10,15 @@ public class Board
 
     public Board()
     {
+        //Create two-dimensional array to simulate the game board.
+
         for (int i = 0; i < BoardState.GetLength(0); i++)
+        {
             for (int j = 0; j < BoardState.GetLength(1); j++)
             {
                 BoardState[i, j] = RoomType.Empty;
-                // Console.WriteLine($"Boardstate [{i}, {j}] is {BoardState[i, j]}");
             }
+        }
 
         BoardState[0, 0] = RoomType.Entrance;
         BoardState[0, 2] = RoomType.Fountain;

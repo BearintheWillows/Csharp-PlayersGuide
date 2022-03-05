@@ -6,15 +6,14 @@ namespace The_Fountain_Of_Objects.BaseGame
     {
         public Board Board { get; set; } = new();
         public PlayerPosition PlayerPosition { get; set; } = new(0, 0);
-        private bool _gameWin = false;
-        private BoardRender _boardRender = new BoardRender();
+        public bool GameWin = false;
 
         public void Run()
         {
             do
             {
-                _boardRender.Render(Board.BoardState, PlayerPosition);
-                Console.WriteLine("!- - - - - - - - - - - - - ************ - - - - - - - - - - - - - -!");
+                BoardRender.Render(Board.BoardState, PlayerPosition, GameWin);
+                Console.WriteLine();
                 OutputColour.Change(OutputType.Story);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
                 if (GetSense() != null)
@@ -35,7 +34,7 @@ namespace The_Fountain_Of_Objects.BaseGame
                 PlayerPosition = Board.ChooseAction(Console.ReadLine().ToLower(), PlayerPosition);
                 OutputColour.Change(OutputType.Neutral);
                 CheckWin();
-            } while (!_gameWin);
+            } while (!GameWin);
         }
 
         public string? GetSense()
@@ -57,11 +56,14 @@ namespace The_Fountain_Of_Objects.BaseGame
 
         private void CheckWin()
         {
-            if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Board.FountainActive )
+            if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Board.FountainActive)
             {
+                Console.Clear();
                 OutputColour.Change(OutputType.Winner);
-                _gameWin = true;
+                GameWin = true;
                 Console.WriteLine("!- - - - - - - - - - - - - - WINNER - - - - - - - - - - - - - - - -!");
+                Console.WriteLine();
+                BoardRender.Render(Board.BoardState, PlayerPosition, GameWin);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
                 Console.WriteLine("You have escaped with your life and the fountain is finally activated!");
                 Console.WriteLine("You Win!")
