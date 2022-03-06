@@ -1,27 +1,36 @@
 ﻿using System.Globalization;
 using The_Fountain_Of_Objects.BaseGame.Enums;
+using The_Fountain_Of_Objects.Expansion.MapGenerator;
 
 namespace The_Fountain_Of_Objects.BaseGame;
 
-public class Board
+public class Map
 {
-    public RoomType[,] BoardState { get; set; } = new RoomType[4, 4];
+    public RoomType[,] MapState { get; set; } 
     public bool FountainActive { get; private set; }
 
-    public Board()
+    public Map() => CreateMap();
+
+    private void CreateMap()
     {
-        //Create two-dimensional array to simulate the game board.
-
-        for (int i = 0; i < BoardState.GetLength(0); i++)
+        string sizeOfMap = Console.ReadLine();
+        if (sizeOfMap == "small")
         {
-            for (int j = 0; j < BoardState.GetLength(1); j++)
-            {
-                BoardState[i, j] = RoomType.Empty;
-            }
+            MapState = MapGenerator.Generate(4, 4, MapState);
         }
-
-        BoardState[0, 0] = RoomType.Entrance;
-        BoardState[0, 2] = RoomType.Fountain;
+        else if (sizeOfMap == "medium")
+        {
+            MapState = MapGenerator.Generate(6, 6, MapState);
+        }
+        else if (sizeOfMap == "large")
+        {
+            MapState = MapGenerator.Generate(8,8, MapState);
+        }
+        else
+        {
+            Console.WriteLine("Please enter a valid Size - small, medium or large");
+            CreateMap();
+        }
     }
 
     public PlayerPosition ChooseAction(string heading, PlayerPosition playerPosition)

@@ -4,15 +4,16 @@ namespace The_Fountain_Of_Objects.BaseGame
 {
     public class GameManager
     {
-        public Board Board { get; set; } = new();
+        public Map Map { get; set; } = new();
         public PlayerPosition PlayerPosition { get; set; } = new(0, 0);
         public bool GameWin = false;
 
         public void Run()
         {
+            Console.WriteLine("Hello...");
             do
             {
-                BoardRender.Render(Board.BoardState, PlayerPosition, GameWin);
+                MapRender.Render(Map.MapState, PlayerPosition, GameWin);
                 Console.WriteLine();
                 OutputColour.Change(OutputType.Story);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
@@ -31,7 +32,7 @@ namespace The_Fountain_Of_Objects.BaseGame
                     Console.Write("Where are you moving to? ");
                 }
 
-                PlayerPosition = Board.ChooseAction(Console.ReadLine().ToLower(), PlayerPosition);
+                PlayerPosition = Map.ChooseAction(Console.ReadLine().ToLower(), PlayerPosition);
                 OutputColour.Change(OutputType.Neutral);
                 CheckWin();
             } while (!GameWin);
@@ -45,7 +46,7 @@ namespace The_Fountain_Of_Objects.BaseGame
             }
             else if (PlayerPosition.Column == 2 && PlayerPosition.Row == 0)
             {
-                return Sense.Hear(Board.FountainActive);
+                return Sense.Hear(Map.FountainActive);
             }
             else if ((PlayerPosition.Row == 0 && PlayerPosition.Column == 1) || (PlayerPosition.Column == 0 && PlayerPosition.Column == 1))
             {
@@ -56,14 +57,14 @@ namespace The_Fountain_Of_Objects.BaseGame
 
         private void CheckWin()
         {
-            if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Board.FountainActive)
+            if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Map.FountainActive)
             {
                 Console.Clear();
                 OutputColour.Change(OutputType.Winner);
                 GameWin = true;
                 Console.WriteLine("!- - - - - - - - - - - - - - WINNER - - - - - - - - - - - - - - - -!");
                 Console.WriteLine();
-                BoardRender.Render(Board.BoardState, PlayerPosition, GameWin);
+                MapRender.Render(Map.MapState, PlayerPosition, GameWin);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
                 Console.WriteLine("You have escaped with your life and the fountain is finally activated!");
                 Console.WriteLine("You Win!")

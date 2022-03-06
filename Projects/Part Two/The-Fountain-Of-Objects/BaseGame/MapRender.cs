@@ -2,9 +2,9 @@
 
 namespace The_Fountain_Of_Objects.BaseGame
 {
-    public static class BoardRender
+    public static class MapRender
     {
-        public static async void Render(RoomType[,] boardState, PlayerPosition playerPosition, bool gamewin)
+        public static void Render(RoomType[,] mapState, PlayerPosition playerPosition, bool gamewin)
         {
             OutputColour.Change(OutputType.Neutral);
 
@@ -16,7 +16,7 @@ namespace The_Fountain_Of_Objects.BaseGame
             Console.WriteLine();
             Console.WriteLine("                             North");
 
-            for (int i = 0; i < boardState.GetLength(0); i++)
+            for (int i = 0; i < mapState.GetLength(0); i++)
             {
                 Console.WriteLine();
                 if (i == 2)
@@ -30,11 +30,11 @@ namespace The_Fountain_Of_Objects.BaseGame
 
                 Console.Write($"{colLine,24}");
 
-                for (int j = 0; j < boardState.GetLength(1); j++)
+                for (int j = 0; j < mapState.GetLength(1); j++)
                 {
                     if (i == playerPosition.Row && j == playerPosition.Column)
                     {
-                        if (boardState[i, j] == RoomType.Fountain || boardState[i, j] == RoomType.Entrance)
+                        if (mapState[i, j] == RoomType.Fountain || mapState[i, j] == RoomType.Entrance)
                         {
                             OutputColour.Change(OutputType.UniqueRoom);
                             Console.Write($" {marker} ");
