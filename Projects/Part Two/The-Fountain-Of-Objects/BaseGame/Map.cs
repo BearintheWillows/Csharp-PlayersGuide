@@ -9,27 +9,35 @@ public class Map
     public RoomType[,] MapState { get; set; } 
     public bool FountainActive { get; private set; }
 
-    public Map() => CreateMap();
-
-    private void CreateMap()
+    private int _mapSize;
+   
+    public MapRender? CreateMap(PlayerPosition playerPosition, bool gameWin)
     {
         string sizeOfMap = Console.ReadLine();
         if (sizeOfMap == "small")
         {
             MapState = MapGenerator.Generate(4, 4, MapState);
+            _mapSize = 4;
+            
+            return new SmallMapRender(MapState,playerPosition, gameWin);
         }
         else if (sizeOfMap == "medium")
         {
             MapState = MapGenerator.Generate(6, 6, MapState);
+            _mapSize = 6;
+            return new MediumMapRender(MapState, playerPosition, gameWin);
         }
         else if (sizeOfMap == "large")
         {
             MapState = MapGenerator.Generate(8,8, MapState);
+            _mapSize = 8;
+            return  new LargeMapRender(MapState, playerPosition, gameWin);
         }
         else
         {
             Console.WriteLine("Please enter a valid Size - small, medium or large");
-            CreateMap();
+            CreateMap(playerPosition, gameWin);
+            return null;
         }
     }
 
@@ -60,7 +68,7 @@ public class Map
                     break;
 
                 case Heading.East:
-                    if (playerPosition.Column < 3)
+                    if (playerPosition.Column < _mapSize - 1)
                     {
                         playerPosition =
                             new PlayerPosition(playerPosition.Row, playerPosition.Column + 1);
@@ -73,7 +81,7 @@ public class Map
                     break;
 
                 case Heading.South:
-                    if (playerPosition.Row < 3)
+                    if (playerPosition.Row < _mapSize - 1)
                     {
                         playerPosition =
                             new PlayerPosition(playerPosition.Row + 1, playerPosition.Column);

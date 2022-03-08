@@ -1,70 +1,25 @@
 ﻿using The_Fountain_Of_Objects.BaseGame.Enums;
 
-namespace The_Fountain_Of_Objects.BaseGame
+namespace The_Fountain_Of_Objects.BaseGame;
+
+public abstract class MapRender
 {
-    public static class MapRender
-    {
-        public static void Render(RoomType[,] mapState, PlayerPosition playerPosition, bool gamewin)
-        {
-            OutputColour.Change(OutputType.Neutral);
+    private readonly string _rowLine;
+    private readonly string _colLine;
+    private readonly string _marker;
 
-            const string rowLine = "-|---|---|---|---|-";
-            const string colLine = "|";
-            const string marker = "x";
-            Console.Write("                          - Minimap -");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("                             North");
+    public MapRender(RoomType[,] mapState, PlayerPosition playerPosition, bool gameWin) { }
 
-            for (int i = 0; i < mapState.GetLength(0); i++)
-            {
-                Console.WriteLine();
-                if (i == 2)
-                {
-                    Console.WriteLine($"               West   {rowLine,3}   East");
-                }
-                else
-                {
-                    Console.WriteLine($"{rowLine,41}");
-                }
+    public abstract void Render(RoomType[,] mapState, PlayerPosition playerPosition, bool gameWin);
 
-                Console.Write($"{colLine,24}");
+   internal abstract void RenderRows(int index);
 
-                for (int j = 0; j < mapState.GetLength(1); j++)
-                {
-                    if (i == playerPosition.Row && j == playerPosition.Column)
-                    {
-                        if (mapState[i, j] == RoomType.Fountain || mapState[i, j] == RoomType.Entrance)
-                        {
-                            OutputColour.Change(OutputType.UniqueRoom);
-                            Console.Write($" {marker} ");
-                            OutputColour.Change(OutputType.Neutral);
-                            Console.Write(colLine);
-                        }
-                        else
-                        {
-                            Console.Write($" {marker} {colLine}");
-                        }
-                    }
-                    else
-                    {
-                        Console.Write($"{colLine,4}");
-                    }
-                }
-
-                if (i == 3)
-                {
-                    Console.WriteLine();
-                    Console.WriteLine($"{rowLine,41}");
-                    Console.WriteLine();
-                    Console.WriteLine("                             South");
-                }
-            }
-
-            if (gamewin)
-            {
-                OutputColour.Change(OutputType.Winner);
-            }
-        }
-    }
+   internal abstract void RenderColumn(int i, int j, RoomType[,] mapState, PlayerPosition playerPosition);
 }
+
+
+
+
+
+
+    

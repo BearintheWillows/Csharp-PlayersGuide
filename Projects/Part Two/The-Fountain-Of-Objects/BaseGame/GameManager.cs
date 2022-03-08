@@ -1,4 +1,5 @@
 ﻿using The_Fountain_Of_Objects.BaseGame.Enums;
+using The_Fountain_Of_Objects.Expansion.MapGenerator;
 
 namespace The_Fountain_Of_Objects.BaseGame
 {
@@ -7,13 +8,21 @@ namespace The_Fountain_Of_Objects.BaseGame
         public Map Map { get; set; } = new();
         public PlayerPosition PlayerPosition { get; set; } = new(0, 0);
         public bool GameWin = false;
+        public MapRender? CurrentMap { get; init; }
+
+        public GameManager()
+        {
+            CurrentMap = Map.CreateMap(PlayerPosition, GameWin);
+        }
 
         public void Run()
         {
-            Console.WriteLine("Hello...");
+           
             do
             {
-                MapRender.Render(Map.MapState, PlayerPosition, GameWin);
+                Console.Clear();
+                CurrentMap.Render(Map.MapState, PlayerPosition, GameWin);
+                
                 Console.WriteLine();
                 OutputColour.Change(OutputType.Story);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
@@ -64,7 +73,7 @@ namespace The_Fountain_Of_Objects.BaseGame
                 GameWin = true;
                 Console.WriteLine("!- - - - - - - - - - - - - - WINNER - - - - - - - - - - - - - - - -!");
                 Console.WriteLine();
-                MapRender.Render(Map.MapState, PlayerPosition, GameWin);
+                CurrentMap.Render(Map.MapState, PlayerPosition, GameWin);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
                 Console.WriteLine("You have escaped with your life and the fountain is finally activated!");
                 Console.WriteLine("You Win!")
