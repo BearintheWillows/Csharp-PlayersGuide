@@ -11,6 +11,7 @@ public class Map
 
     private int _mapSize;
 
+    //Renders the game map 
     public MapRender? CreateMap(PlayerPosition playerPosition, bool gameWin)
     {
         string sizeOfMap = Console.ReadLine();
@@ -36,6 +37,7 @@ public class Map
         }
     }
 
+    //Player can choose differing actions to perform.
     public PlayerPosition ChooseAction(string heading, PlayerPosition playerPosition)
     {
         //Creates a Culture info obj

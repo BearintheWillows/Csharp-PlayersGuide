@@ -1,32 +1,38 @@
 ﻿using The_Fountain_Of_Objects.BaseGame.Enums;
-using The_Fountain_Of_Objects.Expansion.Help;
-using The_Fountain_Of_Objects.Expansion.MapGenerator;
 
 namespace The_Fountain_Of_Objects.BaseGame
 {
-    public class GameManager : IPlayerHelp
+    public class GameManager
     {
         public Map Map { get; set; } = new();
         public PlayerPosition PlayerPosition { get; set; } = new(0, 0);
         public bool GameWin = false;
         public MapRender? CurrentMap { get; private set; }
 
-        public GameManager()
-        {
-        }
-
+        //Controls the loop of the game
         public void Run()
         {
             Story.Intro();
+
+            // Creates Map and displays correct Map size
+
             CurrentMap = Map.CreateMap(PlayerPosition, GameWin);
 
             do
             {
                 Console.Clear();
+
+                // Renders the game map
                 CurrentMap.Render(Map.MapState, PlayerPosition,GameWin);
+
                 Console.WriteLine();
+
                 OutputColour.Change(OutputType.Story);
+
                 Story.RoomScene(PlayerPosition);
+
+                // Checks if a room has a sense attached
+
                 if (GetSense() != null)
                 {
                     Console.WriteLine(GetSense());
@@ -88,14 +94,6 @@ namespace The_Fountain_Of_Objects.BaseGame
                 Console.WriteLine("You Win!")
 
         ;
-            }
-        }
-
-        public void GetHelp(string help)
-        {
-            switch (help)
-            {
-                
             }
         }
     }
