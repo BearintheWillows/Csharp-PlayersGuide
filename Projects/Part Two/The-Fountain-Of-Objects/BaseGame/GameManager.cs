@@ -1,31 +1,32 @@
 ﻿using The_Fountain_Of_Objects.BaseGame.Enums;
+using The_Fountain_Of_Objects.Expansion.Help;
 using The_Fountain_Of_Objects.Expansion.MapGenerator;
 
 namespace The_Fountain_Of_Objects.BaseGame
 {
-    public class GameManager
+    public class GameManager : IPlayerHelp
     {
         public Map Map { get; set; } = new();
         public PlayerPosition PlayerPosition { get; set; } = new(0, 0);
         public bool GameWin = false;
-        public MapRender? CurrentMap { get; init; }
+        public MapRender? CurrentMap { get; private set; }
 
         public GameManager()
         {
-            CurrentMap = Map.CreateMap(PlayerPosition, GameWin);
         }
 
         public void Run()
         {
-           
+            Story.Intro();
+            CurrentMap = Map.CreateMap(PlayerPosition, GameWin);
+
             do
             {
                 Console.Clear();
-                CurrentMap.Render(Map.MapState, PlayerPosition, GameWin);
-                
+                CurrentMap.Render(Map.MapState, PlayerPosition,GameWin);
                 Console.WriteLine();
                 OutputColour.Change(OutputType.Story);
-                Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
+                Story.RoomScene(PlayerPosition);
                 if (GetSense() != null)
                 {
                     Console.WriteLine(GetSense());
@@ -40,8 +41,16 @@ namespace The_Fountain_Of_Objects.BaseGame
                 {
                     Console.Write("Where are you moving to? ");
                 }
-
-                PlayerPosition = Map.ChooseAction(Console.ReadLine().ToLower(), PlayerPosition);
+                string response = Console.ReadLine();
+                if (response.ToLower() == "help")
+                {
+                    Story.Help();
+                }
+                else
+                {
+                   PlayerPosition = Map.ChooseAction(response.ToLower(), PlayerPosition); 
+                }
+                
                 OutputColour.Change(OutputType.Neutral);
                 CheckWin();
             } while (!GameWin);
@@ -79,6 +88,14 @@ namespace The_Fountain_Of_Objects.BaseGame
                 Console.WriteLine("You Win!")
 
         ;
+            }
+        }
+
+        public void GetHelp(string help)
+        {
+            switch (help)
+            {
+                
             }
         }
     }
