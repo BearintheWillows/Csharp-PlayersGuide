@@ -12,6 +12,8 @@ namespace The_Fountain_Of_Objects.BaseGame
         //Controls the loop of the game
         public void Run()
         {
+            TimeCheck currentGameTime = new TimeCheck();
+
             Story.Intro();
 
             // Creates Map and displays correct Map size
@@ -23,7 +25,7 @@ namespace The_Fountain_Of_Objects.BaseGame
                 Console.Clear();
 
                 // Renders the game map
-                CurrentMap.Render(Map.MapState, PlayerPosition,GameWin);
+                CurrentMap.Render(Map.MapState, PlayerPosition, GameWin);
 
                 Console.WriteLine();
 
@@ -54,11 +56,11 @@ namespace The_Fountain_Of_Objects.BaseGame
                 }
                 else
                 {
-                   PlayerPosition = Map.ChooseAction(response.ToLower(), PlayerPosition); 
+                    PlayerPosition = Map.ChooseAction(response.ToLower(), PlayerPosition);
                 }
-                
+
                 OutputColour.Change(OutputType.Neutral);
-                CheckWin();
+                CheckWin(currentGameTime);
             } while (!GameWin);
         }
 
@@ -79,7 +81,7 @@ namespace The_Fountain_Of_Objects.BaseGame
             return null;
         }
 
-        private void CheckWin()
+        private void CheckWin(TimeCheck timeCheck)
         {
             if (PlayerPosition.Row == 0 && PlayerPosition.Column == 0 && Map.FountainActive)
             {
@@ -91,9 +93,10 @@ namespace The_Fountain_Of_Objects.BaseGame
                 CurrentMap.Render(Map.MapState, PlayerPosition, GameWin);
                 Console.WriteLine($"You are in the room at {PlayerPosition.ToString().Remove(0, 15)}");
                 Console.WriteLine("You have escaped with your life and the fountain is finally activated!");
-                Console.WriteLine("You Win!")
+                Console.WriteLine("You Win!");
+                Console.WriteLine("Time played: " + timeCheck.WinTimeCheck() + " Seconds");
 
-        ;
+                ;
             }
         }
     }
