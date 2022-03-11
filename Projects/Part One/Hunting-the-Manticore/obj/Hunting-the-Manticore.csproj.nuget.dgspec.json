@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj": {}
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part One\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj": {
+    "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part One\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj",
+        "projectUniqueName": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part One\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj",
         "projectName": "Hunting-the-Manticore",
-        "projectPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj",
+        "projectPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part One\\Hunting-the-Manticore\\Hunting-the-Manticore.csproj",
         "packagesPath": "C:\\Users\\SJWillows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SJWillows\\source\\repos\\Csharp-PlayersGuide\\Hunting-the-Manticore\\obj\\",
+        "outputPath": "C:\\Users\\SJWillows\\OneDrive\\Programming\\CSharp\\PlayersGuide\\Projects\\Part One\\Hunting-the-Manticore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\SJWillows\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -60,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

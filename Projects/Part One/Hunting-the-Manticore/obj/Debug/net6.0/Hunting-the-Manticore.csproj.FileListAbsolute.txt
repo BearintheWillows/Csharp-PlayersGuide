@@ -13,3 +13,18 @@ C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\De
 C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\ref\Hunting-the-Manticore.dll
 C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.pdb
 C:\Users\SJWillows\source\repos\Csharp-PlayersGuide\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.genruntimeconfig.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.exe
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.deps.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.runtimeconfig.json
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\bin\Debug\net6.0\Hunting-the-Manticore.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.csproj.AssemblyReference.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.AssemblyInfoInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.AssemblyInfo.cs
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.csproj.CoreCompileInputs.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\refint\Hunting-the-Manticore.dll
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.pdb
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\Hunting-the-Manticore.genruntimeconfig.cache
+C:\Users\SJWillows\OneDrive\Programming\CSharp\PlayersGuide\Projects\Part One\Hunting-the-Manticore\obj\Debug\net6.0\ref\Hunting-the-Manticore.dll

@@ -12,11 +12,12 @@ Console.Clear();
 /*Sets damage variable based on round number 
   Then reduces manticore health accordingly.*/
 
-void MagicCannon (int roundNum) {
+void MagicCannon(int roundNum)
+{
     if (shotRange == cityDistance)
     {
-        
-    if (roundNum % 3 == 0 && roundNum % 5 ==0)
+
+        if (roundNum % 3 == 0 && roundNum % 5 == 0)
         {
             damage = 10;
             manticoreHealth -= 10;
@@ -26,8 +27,8 @@ void MagicCannon (int roundNum) {
             damage = 3;
             manticoreHealth -= damage;
         }
-        else if (roundNum % 3 == 0 )
-        {   
+        else if (roundNum % 3 == 0)
+        {
             damage = 3;
             manticoreHealth -= damage;
         }
@@ -41,9 +42,10 @@ void MagicCannon (int roundNum) {
 
 // Returns hit success response based on range variable set by user
 
-string CannonHitDetect (int range) {
+string CannonHitDetect(int range)
+{
     string response;
-    shotRange = range; 
+    shotRange = range;
     if (range > cityDistance)
     {
         response = "That round was OVERSHOT the target";
@@ -53,7 +55,7 @@ string CannonHitDetect (int range) {
     {
         response = "That round FELL SHORT of the target";
     }
-    else 
+    else
     {
         response = "That round was a DIRECT HIT!";
     }
@@ -62,7 +64,8 @@ string CannonHitDetect (int range) {
 
 // Responds with winner when win condition met
 
-string loserDetect () {
+string loserDetect()
+{
     string response;
     if (cityHealth == 0)
     {
@@ -75,6 +78,7 @@ string loserDetect () {
     return response;
 }
 
+Random rangeRandom = new Random();
 
 // Core game loop. Loops untill cityhealth or manticore health are 0.
 do
@@ -86,15 +90,15 @@ do
     Console.WriteLine($"Manticore: {manticoreHealth} / 10");
     Console.WriteLine($"The cannon is expected to deal {damage} this round.");
     Console.Write("Enter desire cannon range: ");
-    Console.WriteLine(CannonHitDetect(int.Parse(Console.ReadLine())));
+    Console.WriteLine(CannonHitDetect(rangeRandom.Next(0,100 + 1)));
     Console.WriteLine("------------------------------------------------------");
-    
-    
+
+
     MagicCannon(round);
     cityHealth--;
     Console.WriteLine("**********************************");
     Console.WriteLine(loserDetect());
     Console.WriteLine("**********************************");
     round++;
-    
+
 } while (cityHealth > 0 && manticoreHealth > 0);
