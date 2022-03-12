@@ -11,10 +11,11 @@ if (Console.ReadLine().ToLower() == "yes")
 }
 
 Console.WriteLine("Boop Beep. Working. Where to go?");
-
-for (int i = 0; i < 3; i++)
+string input;
+do
 {
-    string input = Console.ReadLine();
+     input = Console.ReadLine();
+    
     IRobotCommand? command = null;
     switch (input.ToLower())
     {
@@ -23,7 +24,6 @@ for (int i = 0; i < 3; i++)
             break;
         case "north":
             command = new NorthCommand();
-            Console.WriteLine(command);
             break;
         case "west":
             command = new WestCommand();
@@ -33,8 +33,10 @@ for (int i = 0; i < 3; i++)
             break;
     }
 
-    robot1.Commands[i] = command;
-}
+    robot1.Commands.Add(command);
+} while (input != "stop");
+    
+
 
 
 robot1.Run();
